@@ -12,10 +12,9 @@ spec:
       labels:
         app: frontend
     spec:
-      containers:
-      - name: frontend
-        image: cloudshop-frontend
-        imagePullPolicy: Never
+        containers:
+        - name: frontend
+        image: 620830101228.dkr.ecr.us-east-1.amazonaws.com/cloudshop-frontend
         ports:
         - containerPort: 3000
 

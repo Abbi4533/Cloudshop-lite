@@ -12,10 +12,9 @@ spec:
       labels:
         app: worker
     spec:
-      containers:
-      - name: worker
-        image: cloudshop-worker
-        imagePullPolicy: Never
+    containers:
+    - name: worker
+    image: 620830101228.dkr.ecr.us-east-1.amazonaws.com/cloudshop-worker
 
         env:
            - name: REDIS_HOST

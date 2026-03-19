@@ -12,10 +12,9 @@ spec:
       labels:
         app: api
     spec:
-      containers:
-      - name: api
-        image: cloudshop-api
-        imagePullPolicy: Never
+        containers:
+        - name: api
+        image: 620830101228.dkr.ecr.us-east-1.amazonaws.com/cloudshop-api
         ports:
         - containerPort: 5000
         env:
